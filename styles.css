@@ -54,7 +54,7 @@ body {
 }
 
 .desktop-images-compisition {
-  display: none;
+  /* display: none; */
 }
 
 .content {
@@ -97,7 +97,7 @@ body {
 }
 
 .answer {
-  /* display: none; */
+  display: none;
   margin-bottom: 15px;
   font-size: 1.2rem;
   padding-right: 30px;
