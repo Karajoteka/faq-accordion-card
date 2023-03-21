@@ -54,7 +54,7 @@ body {
   width: 270px;
 }
 
-.desktop-images-composition {
+.desktop-images-composition, .desktop-box {
   display: none;
 }
 
