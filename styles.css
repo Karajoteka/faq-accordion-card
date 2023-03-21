@@ -74,22 +74,26 @@ body {
   color: var(--very-dark-grayish-blue);
 }
 
-.info .question-and-answer {
+.info .faq {
   border-bottom: 1px solid var(--light-grayish-blue); 
 }
 
-.info .question {
+.info .faq-title {
   font-weight: 400;
   font-size: 1.4rem;  
   padding: 15px 0;
 }
 
-.info .question:hover {
+.info .faq-title:hover {
   cursor: pointer;
   color: var(--soft-red);
 }
 
-.question span {
+.info .faq-title.active {
+  font-weight: bold;
+}
+
+.faq-title span {
   display: inline-block;
   background-image: url('./images/icon-arrow-down.svg');
   background-position: center;
@@ -100,7 +104,15 @@ body {
   right: 20px;
 }
 
-.answer {
+.faq-title span:hover {
+  transform: rotate(180deg);
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.faq-content {
   display: none;
   margin-bottom: 15px;
   font-size: 1.4rem;
