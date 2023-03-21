@@ -108,6 +108,10 @@ body {
   transform: rotate(180deg);
 }
 
+.faq-title.active span {
+  transform: rotate(180deg);
+}
+
 .rotate {
   transform: rotate(180deg);
 }
