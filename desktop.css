@@ -1,0 +1,62 @@
+.container {
+  position: relative;  
+  width: 900px;
+  height: 450px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+}
+
+.mobile-images-composition {
+  display: none;
+}
+
+.desktop-images-composition {
+  display: contents;
+  grid-column: 1 / 2;
+  width: 500px;
+  position: absolute;
+}
+
+.desktop-design {
+  width: 400px;
+  position: absolute;
+  bottom: 60px;
+  left: -75px;
+  z-index: 2;
+}
+
+.desktop-box {
+  display: block;
+  position: relative;
+  width: 170px;
+  bottom: -80px;
+  left: 50px;
+  z-index: 3;
+}
+
+.desktop-shadow {
+  position: absolute;
+  width: 500px;
+  bottom: -50px;
+  left: -175px;
+  z-index: 1;
+}
+
+.content {
+  grid-column: 2 / 3;
+  margin-top: 50px; 
+}
+
+.content h1 {
+  text-align: left;
+}
+
+.faq {
+  width: 350px;
+}
+
+.faq-title span {
+  right: 80px;
+}
